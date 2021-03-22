@@ -1,0 +1,185 @@
+/*Les variavbles que j'ai déclaré*/
+@font-face
+{
+    font-family: Aileron;
+    src: url("ressources/font/Ailerons-Regular.otf")
+}
+
+@media (min-width:1410px)/*Only real thing here*/
+{
+
+*
+{
+    margin : 0px;
+    padding : 0px;
+}
+/*Le reste*/
+.MenuTop
+{
+  vertical-align: bottom;
+  text-align: center;
+  font-family: Aileron;
+  font-size: 75px;
+  color: white;
+  margin-top : 10px;
+}
+
+body
+{
+  background-image: url("ressources/img/background.png")
+}
+
+a
+{
+  background-color: none;
+  vertical-align: bottom;
+  text-align: center;
+  font-family: Aileron;
+  font-size: 75px;
+  color: white;
+  text-decoration: none;
+}
+a:hover
+{
+  background-color: none;
+  vertical-align: bottom;
+  text-align: center;
+  font-family: Aileron;
+  font-size: 75px;
+  color: white;
+  text-decoration: none;
+}
+a:active
+{
+  background-color: none;
+  vertical-align: bottom;
+  text-align: center;
+  font-family: Aileron;
+  font-size: 75px;
+  color: white;
+  text-decoration: none;
+}
+
+.subtitle
+{
+  font-size: 25px;
+  margin : 10px;
+  padding : 10px;
+}
+.SectionSelector
+{
+  background-color: rgba(15,15,15,0.75);
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  /*Truc cool pour que les choses soit bien séparé équitablement*/
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sexionbox
+{
+  font-family: Aileron;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 35px;
+  display: inline;
+}
+
+.Section
+{
+  font-family: Aileron;
+  color: white;
+  font-size: 25px;
+  transition-duration: 0.5s;
+  padding : 30px;
+}
+
+.Section:first-child
+{
+  margin-left: 20px;
+}
+
+.Section:last-child
+{
+  margin-right:20px;
+}
+.Section:hover
+{
+  font-family: Aileron;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 32px;
+  transition-duration: 0.5s;
+}
+
+
+
+
+.sexionbox {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  background-color: rgba(15,15,15,0.75);
+  font-size: 25px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.sexionbox:hover .dropdown-content
+{
+  display: block;
+}
+.sexionbox:hover .Section
+{
+  font-family: Aileron;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 32px;
+  transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
