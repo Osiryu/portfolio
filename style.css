@@ -5,8 +5,7 @@
     src: url("ressources/font/Ailerons-Regular.otf")
 }
 
-@media (min-width:1410px)/*Only real thing here*/
-{
+
 
 *
 {
@@ -68,8 +67,6 @@ a:active
 }
 .SectionSelector
 {
-  background: linear-gradient(0.25turn, #9A9A9A,#191919);
-  border-radius: 50px;
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -138,6 +135,7 @@ a:active
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  margin-top: 16px;
   display: none;
   position: absolute;
   min-width: 160px;
@@ -169,17 +167,4 @@ a:active
   line-height: 50px;
   font-size: 32px;
   transition-duration: 0.5s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 }
