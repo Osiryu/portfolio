@@ -4,6 +4,11 @@
     font-family: Aileron;
     src: url("ressources/font/Ailerons-Regular.otf")
 }
+@font-face
+{
+  font-family: Neon Glow;
+  src: url("/ressources/font/Neon Glow.otf")
+}
 
 
 
@@ -26,6 +31,18 @@
 body
 {
   background: linear-gradient(0.25turn, #191919, #9A9A9A);
+}
+.writing
+{
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  font-size: 317px;
+  font-family: arial;
+  color: rgb(0,0,0,0);
+  text-transform: uppercase;
+  font-family: Aileron;
+  -webkit-text-stroke: 5px rgb(255, 191, 0);
 }
 
 a
