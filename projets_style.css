@@ -13,16 +13,18 @@
   color : white;
 }
 body{
-  background: linear-gradient(0.25turn, #191919, #9A9A9A);
+  background-color:#9A9A9A;
 }
 .projet
 {
   display: inline-flex;
   justify-content: space-between;
   width: 80%;
-  background-color: rgba(15,15,15,0.5);
+  background-color: rgb(15,15,15);
   box-shadow: 5px 5px 5px black;
-  border-radius: 20px;
+  border-width: 1px;
+  border-color: rgb(10,10,10);
+  border-radius: 50px;
 }
 .project_tag
 {
