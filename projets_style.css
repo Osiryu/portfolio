@@ -3,44 +3,48 @@
     font-family: Aileron;
     src: url("ressources/font/Ailerons-Regular.otf")
 }
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
-
-*{
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Gruppo';
-  font-size:30px;
-  color : white;
-}
 body{
-  background-color:#9A9A9A;
+  background-color:white;
+}
+.retour
+{
+  text-align: center;
+  color: black;
+  font-family:Aileron;
+  width: 100%;
+  font-size: 30px;
+  cursor: pointer;
+}
+a
+{
+  text-decoration: none;
+}
+.title{
+  text-indent: 15%;
+  color: black;
+  font-family:Aileron;
+  font-size: 30px;
+}
+
+hr{
+
 }
 .projet
 {
+  width: 100%;
+  text-align: center;
+  font-family:Aileron;
+  font-size: 25px;
   display: inline-flex;
-  justify-content: space-between;
-  width: 80%;
-  background-color: rgb(15,15,15);
-  box-shadow: 5px 5px 5px black;
-  border-width: 1px;
-  border-color: rgb(10,10,10);
-  border-radius: 50px;
+  justify-content: center;
+  text-align: center;
 }
-.project_tag
+.titlepro
 {
-  display: inline-flex;
-}
-.project_name
-{
-  font-weight: bold;
-}
-.project_desc
-{
-  font-size: 20px;
-}
-.projet img
-{
-  width: 100px;
-  height: 100%;
-  border-radius: 20px;
+  font-weight: normal;
+  font-size: 25px;
+  margin-right: 20px;
+  border-style : solid;
+  border-color: black;
+  padding: 5px;
 }

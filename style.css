@@ -75,7 +75,6 @@ a:active
   margin-right: 10px;
   margin-bottom: 20px;
   /*Truc cool pour que les choses soit bien séparé équitablement*/
-  justify-content: space-between;
   align-items: center;
   z-index: 1;
   display: inline-flex;
