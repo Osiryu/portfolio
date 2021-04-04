@@ -11,30 +11,6 @@
     margin : 0px;
     padding : 0px;
 }
-/*Le reste*/
-.Bigtitle
-{
-  vertical-align: bottom;
-  font-family: Aileron;
-  font-size: 75px;
-  color: black;
-  margin-top : 10px;
-  width: 100%;
-  background: red;
-  display: block;
-  justify-content: center;
-  width: 100%;
-}
-.subtitle{
-  text-align: center;
-  font-family: Aileron;
-  font-size: 75px;
-  color: black;
-  width: 100%;
-  background: blue;
-  font-size: 25px;
-  margin-top: 10px;
-}
 
 body
 {
@@ -44,34 +20,39 @@ body
   padding: 0px;
 }
 
+/*Le reste*/
+H1
+{
+  font-size: 6vw;
+  font-weight: normal;
+  text-align: center;
+  font-family: Aileron;
+  letter-spacing: 2vw;
+}
+h2{
+  text-align: center;
+  font-family: Aileron;
+  font-size: 2vw;
+  margin-top: 20px;
+  font-weight: normal;
+
+}
+
+
+
 
 a
 {
-  background-color: none;
-  vertical-align: bottom;
-  text-align: center;
-  font-family: Aileron;
-  font-size: 75px;
+  font-size: 3vw;
   color: black;
   text-decoration: none;
 }
 a:hover
 {
-  background-color: none;
-  vertical-align: bottom;
-  text-align: center;
-  font-family: Aileron;
-  font-size: 75px;
-  color: black;
-  text-decoration: none;
+  font-size: 4px;
 }
 a:active
 {
-  background-color: none;
-  vertical-align: bottom;
-  text-align: center;
-  font-family: Aileron;
-  font-size: 75px;
   color: black;
   text-decoration: none;
 }
@@ -106,7 +87,7 @@ a:active
 {
   font-family: Aileron;
   color: black;
-  font-size: 25px;
+  font-size: 2vw;
   transition-duration: 0.5s;
   padding : 30px;
   width: 15%;
@@ -128,7 +109,7 @@ a:active
   text-align: center;
   height: 50px;
   line-height: 50px;
-  font-size: 32px;
+  font-size: 3vw;
   transition-duration: 0.5s;
 }
 
@@ -138,7 +119,6 @@ a:active
 .sexionbox {
   color: black;
   padding: 16px;
-  font-size: 16px;
   border: none;
 }
 
