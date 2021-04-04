@@ -12,22 +12,36 @@
     padding : 0px;
 }
 /*Le reste*/
-.MenuTop
+.Bigtitle
 {
   vertical-align: bottom;
-  text-align: center;
   font-family: Aileron;
   font-size: 75px;
   color: black;
   margin-top : 10px;
+  width: 100%;
+  background: red;
+  display: block;
+  justify-content: center;
+  width: 100%;
+}
+.subtitle{
+  text-align: center;
+  font-family: Aileron;
+  font-size: 75px;
+  color: black;
+  width: 100%;
+  background: blue;
+  font-size: 25px;
+  margin-top: 10px;
 }
 
 body
 {
   background-color: white;
-  overflow-x: hidden;
-  overflow-y:hidden;
   color: black;
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -62,12 +76,6 @@ a:active
   text-decoration: none;
 }
 
-.subtitle
-{
-  font-size: 25px;
-  margin : 10px;
-  padding : 10px;
-}
 .SectionSelector
 {
   margin-top: 20px;
@@ -91,6 +99,7 @@ a:active
   line-height: 50px;
   font-size: 35px;
   display: inline;
+  width: 17%;
 }
 
 .Section
@@ -100,6 +109,7 @@ a:active
   font-size: 25px;
   transition-duration: 0.5s;
   padding : 30px;
+  width: 15%;
 }
 
 .Section:first-child
