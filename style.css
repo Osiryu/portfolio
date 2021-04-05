@@ -160,7 +160,7 @@ a:active
   text-align: center;
   height: 50px;
   line-height: 50px;
-  font-size: 32px;
+  font-size: 2vw;
   transition-duration: 0.5s;
 }
 
@@ -168,7 +168,7 @@ a:active
 {
   text-align: center;
   width: 100%;
-  font-size: 2vw;
+  font-size: 50px;
   margin-top: 200px;
 }
 
