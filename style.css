@@ -19,6 +19,7 @@ body
   color: black;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 
 /*Le reste*/
@@ -92,6 +93,7 @@ a:active
   transition-duration: 0.5s;
   padding : 30px;
   width: 15%;
+  white-space: nowrap;
 }
 
 .Section:first-child
@@ -194,4 +196,10 @@ a:active
   margin: 20px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.suisloin
+{
+  position: absolute;
+  top: 5000px;
 }

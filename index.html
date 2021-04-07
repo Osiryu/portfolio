@@ -9,7 +9,7 @@
   </head>
   <body>
       <a href="#"><H1>ANTOINE GANGLOFF</H1></a>
-      <h2>· Web content creator ·</h2>
+      <h2><button class="hidden" onclick="darkmode()">·</button> Web content creator ·</h2>
 
 <div class="SectionSelector">
   <div class="sexionbox"><a class="Section" href="projets.html">PROJETS</a></div>
@@ -53,7 +53,19 @@
         <a class="liens_social">LinkedIn</a>
         <a class="liens_social" href="#">Youtube</a>
       </div>
+<div class="suisloin">HELLO</div>
+<script>
+function darkmode()
+{
+    let button = document.querySelector(".darkmode");
+    let body = document.querySelector("body");
+    body.style.background = "black";
+    body.style.color = "white";
 
-
+    //FINIR çA !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    var scrollingElement = (document.scrollingElement || document.body);
+    scrollingElement.scrollTop = scrollingElement.scrollHeight;
+}
+</script>
   </body>
 </html>
