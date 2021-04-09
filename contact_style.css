@@ -1,0 +1,18 @@
+@font-face{
+    font-family: Aileron;
+    src: url("ressources/font/Ailerons-Regular.otf")
+}
+
+
+*
+{
+  font-family: Aileron;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+body
+{
+  text-align: center;
+  margin: auto;
+}
