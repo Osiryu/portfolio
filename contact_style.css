@@ -3,7 +3,6 @@
     src: url("ressources/font/Ailerons-Regular.otf")
 }
 
-
 *
 {
   font-family: Aileron;
@@ -15,4 +14,8 @@ body
 {
   text-align: center;
   margin: auto;
+}
+.box
+{
+  margin-top: 40vh;
 }
