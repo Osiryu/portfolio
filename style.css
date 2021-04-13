@@ -81,6 +81,8 @@ a:active
   padding : 30px;
   width: 15%;
   white-space: nowrap;
+  height: 50px;
+  line-height: 50px;
 }
 
 .Section:first-child
