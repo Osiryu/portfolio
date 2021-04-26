@@ -209,3 +209,66 @@ a:active
   font-size: 20px;
   cursor: pointer;
 }
+
+
+
+
+/*-------------------CHRONO-------------------------*/
+.chronologie
+{
+  width: 100%;
+  margin:0px;
+  margin-top: 30px;
+  padding:0px;
+  display: block;
+  font-family: Aileron;
+  text-align: center;
+}
+
+.caroussel
+{
+  width: 100%;
+  padding:0px;
+  margin:0px;
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+}
+
+.plus, .moins
+{
+  position: absolute;
+}
+
+.plus
+{
+  right: 10px;
+}
+
+.moins
+{
+  left : 10px;
+}
+
+.content
+{
+  background-color: rgb(100,100,100);
+  width: 80%;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.title_chrono
+{
+  font-size: 25px;
+  margin-bottom : 10px;
+}
+
+.text_chrono
+{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(220,220,220);
+}
