@@ -41,8 +41,7 @@ img{
 
 .title
 {
-  font-size: 30px;
-  color: white;
+  font-size: 40px;
 }
 
 .box
@@ -55,13 +54,18 @@ img{
   justify-content: center;
   border-radius: 16px;
   margin: auto;
-  margin-top : 20px;
-  background-color: #249411;
+  margin-top : 30px;
+  background-color: #4B4B4B;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #4B4B4B;
+  transition: 0.5s;
 }
 
 .box1
 {
   background-color: #FFB048;
+  position: relative;
   box-shadow: 0px 0px 10px black;
   width: 90%;
   font-size: 30px;
@@ -70,7 +74,12 @@ img{
   justify-content: center;
   border-radius: 16px;
   margin: auto;
-  margin-top : 20px;
+  margin-top : 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #FFB048;
+  transition: 0.5s;
+
 }
 
 .box_discord
@@ -84,33 +93,45 @@ img{
   justify-content: center;
   border-radius: 16px;
   margin: auto;
-  margin-top : 20px;
+  margin-top : 30px;
+  color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #7289DA;
+  transition: 0.5s;
 }
 
 .box:hover
 {
   box-shadow: 0px 0px 15px white;
+  border-width: 2px;
+  border-style: solid;
+  border-color:white;
   transition: 0.5s;
+
 }
 
 .box1:hover
 {
-  box-shadow: 0px 0px 10px white;
+  box-shadow: 0px 0px 15px white;
+  border-width: 2px;
+  border-style: solid;
+  border-color:white;
   transition: 0.5s;
+
 }
 .box_discord:hover
 {
-  box-shadow: 0px 0px 10px white;
+  box-shadow: 0px 0px 15px white;
+  border-width: 2px;
+  border-style: solid;
+  border-color:white;
   transition: 0.5s;
+
 }
 
-
-.text
-{
-  margin: 7px 10px 5px 10px;
-}
 .text
 {
   font-size: 20px;
-  color: rgb(220,220,220);
+  color:white;
 }
