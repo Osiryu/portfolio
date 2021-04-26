@@ -3,21 +3,35 @@
     src: url("ressources/font/Ailerons-Regular.otf")
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rbga(0,0,0,0);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(175,175,175,0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140,140,140,0.5);
+}
+
 *{
-  color : black;
+  color : white;
   margin : 0px;
   padding : 0px;
   font-family: Ailerons;
 }
 body{
-  background-color : white;
+  background : #272525;
   background-attachment: fixed;
+  overflow: hidden;
 }
 a{
   text-decoration: none;
 }
 h1{
-  color: black;
+  color: white;
   font-family:Aileron;
   width: 100%;
   font-weight: normal;
@@ -40,9 +54,14 @@ img{
 
 .project
 {
+  margin-top: 20px;
+  padding: 0px;
   display: block;
-  justify-content: center;
   padding: 10%;
+  height: 400px ;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .title
@@ -52,7 +71,7 @@ img{
 
 .box
 {
-  background-color: white;
+  background-color: rgb(75,75,75);
   box-shadow: 0px 0px 10px black;
   width: 90%;
   font-size: 30px;
@@ -71,4 +90,35 @@ img{
   display: inline-flex;
   justify-content: center;
   color: rgb(150,150,150);
+}
+
+.ruban
+{
+  display: inline;
+  width: 3000px;
+  position: absolute;
+  top : 700px;
+  left : -900px;
+  transform: rotate(60deg);
+  box-shadow: 0px 0px 10px black;
+}
+.ruban2
+{
+  display: inline;
+  width: 3000px;
+  position: absolute;
+  top : 600px;
+  left : -30px;
+  transform: rotate(-10deg);
+  box-shadow: 0px 0px 10px black;
+}
+.yellow
+{
+  background-color:yellow;
+  display: block;
+  width: 100%;
+  color : black;
+  padding : 5px;
+  padding-top: 1px;
+  font-size: 50px;
 }

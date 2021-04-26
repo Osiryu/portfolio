@@ -10,7 +10,7 @@
   font-family: Ailerons;
 }
 body{
-  background-color : white;
+  background-color: rgb(25,25,25);
   background-attachment: fixed;
 }
 a{
@@ -30,37 +30,81 @@ img{
   height: 50%;
 }
 
-.header
-{
-  justify-content: center;
-  width: 100%;
-  box-shadow: 0px 0px 10px black;
-  padding: 10px 0px 7px 0px;
-}
 
 .project
 {
   display: block;
   justify-content: center;
-  padding: 10%;
+  width: 100%;
+  margin : auto;
 }
 
 .title
 {
   font-size: 30px;
+  color: white;
 }
 
 .box
 {
-  background-color: white;
   box-shadow: 0px 0px 10px black;
   width: 90%;
   font-size: 30px;
   padding: 30px;
-  margin: 10px;
-  display: inline-flex;
+  display: block;
   justify-content: center;
+  border-radius: 16px;
+  margin: auto;
+  margin-top : 20px;
+  background-color: #249411;
 }
+
+.box1
+{
+  background-color: #FFB048;
+  box-shadow: 0px 0px 10px black;
+  width: 90%;
+  font-size: 30px;
+  padding: 30px;
+  display: block;
+  justify-content: center;
+  border-radius: 16px;
+  margin: auto;
+  margin-top : 20px;
+}
+
+.box_discord
+{
+  background: url("ressources/img/discord.png");
+  box-shadow: 0px 0px 10px black;
+  width: 90%;
+  font-size: 30px;
+  padding: 30px;
+  display: block;
+  justify-content: center;
+  border-radius: 16px;
+  margin: auto;
+  margin-top : 20px;
+}
+
+.box:hover
+{
+  box-shadow: 0px 0px 15px white;
+  transition: 0.5s;
+}
+
+.box1:hover
+{
+  box-shadow: 0px 0px 10px white;
+  transition: 0.5s;
+}
+.box_discord:hover
+{
+  box-shadow: 0px 0px 10px white;
+  transition: 0.5s;
+}
+
+
 .text
 {
   margin: 7px 10px 5px 10px;
@@ -68,7 +112,5 @@ img{
 .text
 {
   font-size: 20px;
-  display: inline-flex;
-  justify-content: center;
-  color: rgb(150,150,150);
+  color: rgb(220,220,220);
 }
