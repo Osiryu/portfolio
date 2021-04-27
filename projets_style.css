@@ -36,7 +36,6 @@ img{
   display: block;
   justify-content: center;
   width: 100%;
-  margin : auto;
 }
 
 .title
@@ -78,6 +77,36 @@ img{
   border-width: 2px;
   border-style: solid;
   border-color: #FFB048;
+  transition: 0.5s;
+
+}
+
+.box3
+{
+  background-color : #E32B2C;
+  position: relative;
+  box-shadow: 0px 0px 10px black;
+  width: 90%;
+  font-size: 30px;
+  padding: 30px;
+  display: block;
+  justify-content: center;
+  border-radius: 16px;
+  margin: auto;
+  margin-top : 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  transition: 0.5s;
+
+}
+
+.box3:hover
+{
+  box-shadow: 0px 0px 15px white;
+  border-width: 2px;
+  border-style: solid;
+  border-color:white;
   transition: 0.5s;
 
 }
@@ -134,4 +163,63 @@ img{
 {
   font-size: 20px;
   color:white;
+}
+
+.bouton
+{
+  position: absolute;
+  background-color: rgba(25,25,25,0.75);
+  bottom: 20px;
+  color : white;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+.bouton a
+{
+  color: white;
+}
+.separateur
+{
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 25px;
+  color : white;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.date
+{
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.barre
+{
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  margin: auto;
+}
+
+.fichier
+{
+  font-size: 20px;
+  text-align: center;
+  color : white;
+  margin-top: 10px;
+}
+
+.fichier a
+{
+  color : white;
+}
+
+.project:last-child
+{
+  margin-bottom: 200px;
 }
