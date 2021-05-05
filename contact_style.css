@@ -14,8 +14,35 @@ body
 {
   text-align: center;
   margin: auto;
+  color : white;
+  background-color: rgb(25,25,25);
 }
-.box
+.hello
 {
-  margin-top: 40vh;
+  border-radius: 50px;
+  background-color: white;
+  width: 40%;
+  box-shadow: 0px 0px 20px black;
+  margin: 20px;
+}
+.logo
+{
+  width: 75px;
+  height: 75px;
+  margin: 10px;
+}
+.listedoc
+{
+  display: block;
+}
+.listedoc a
+{
+  font-size: 25px;
+}
+
+.hello2
+{
+  background-color: white;
+  margin: 20px;
+  border-radius: 50px;
 }
